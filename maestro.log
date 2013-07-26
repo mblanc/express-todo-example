@@ -1,0 +1,52 @@
+2013-07-26 20:58:33,981 INFO       Building container: service.mongodb:0.1
+2013-07-26 20:58:35,653 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 20:58:35,666 INFO       Container started: mongodb 7b73ef3711a2
+2013-07-26 20:58:35,683 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.191 and port 27017
+2013-07-26 20:58:37,194 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:00:20,210 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:00:21,789 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:00:21,805 INFO       Container started: mongodb 5e3763cb6178
+2013-07-26 21:00:21,825 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.194 and port 27017
+2013-07-26 21:00:22,826 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:01:34,982 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:01:36,602 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:01:36,614 INFO       Container started: mongodb 6df809ac6936
+2013-07-26 21:01:36,631 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.196 and port 27017
+2013-07-26 21:01:37,634 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:05:51,688 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:05:53,091 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:05:53,105 INFO       Container started: mongodb 3e6382d4b89f
+2013-07-26 21:05:53,109 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.198 and port 27017
+2013-07-26 21:05:54,118 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:06:09,687 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:06:11,701 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:06:11,714 INFO       Container started: mongodb 7e08a06d6b82
+2013-07-26 21:06:11,720 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.200 and port 27017
+2013-07-26 21:06:12,730 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:06:25,009 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:06:27,637 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:06:27,650 INFO       Container started: mongodb 8c453f609de0
+2013-07-26 21:06:27,675 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.202 and port 27017
+2013-07-26 21:06:28,691 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:07:12,411 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:07:13,998 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:07:14,020 INFO       Container started: mongodb 60b913d4ac06
+2013-07-26 21:07:14,023 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.204 and port 27017
+2013-07-26 21:07:15,096 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:29:44,166 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:29:46,140 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:29:46,158 INFO       Container started: mongodb ff837c6356f0
+2013-07-26 21:29:46,161 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.206 and port 27017
+2013-07-26 21:29:47,228 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:38:08,486 INFO       Building container: service.mongodb:0.1
+2013-07-26 21:38:10,649 INFO       Container registered with tag: service.mongodb:0.1
+2013-07-26 21:38:10,669 INFO       Container started: mongodb 6d7e3805277a
+2013-07-26 21:38:10,674 INFO       Starting nodejs: waiting for service mongodb on ip 172.16.0.219 and port 27017
+2013-07-26 21:38:11,686 INFO       Building container: service.nodejs:0.1
+2013-07-26 21:38:56,183 INFO       Container registered with tag: service.nodejs:0.1
+2013-07-26 21:38:56,258 INFO       Container started: nodejs 69d780236611
+2013-07-26 21:38:56,258 INFO       Saving environment state to: /vagrant/dockerfiles/express-todo-example/environment.yml
+2013-07-26 21:39:36,460 INFO       Loading environment from: /vagrant/dockerfiles/express-todo-example/environment.yml
+2013-07-26 21:41:52,169 INFO       Loading environment from: /vagrant/dockerfiles/express-todo-example/environment.yml
+2013-07-26 21:41:52,182 INFO       Destroying container: mongodb
+2013-07-26 21:41:52,248 INFO       Destroying container: nodejs

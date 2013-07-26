@@ -42,6 +42,8 @@ app.get( '/destroy/:id', routes.destroy );
 app.get( '/edit/:id', routes.edit );
 app.post( '/update/:id', routes.update );
 
-app.listen( 3001, '127.0.0.1', function (){
+var port = process.env.PORT || 8080;
+
+app.listen(port, function (){
   console.log( 'Express server listening on port %d in %s mode', app.address().port, app.settings.env );
 });

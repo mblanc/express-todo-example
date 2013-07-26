@@ -9,4 +9,6 @@ var Todo = new Schema({
 
 mongoose.model( 'Todo', Todo );
 
-mongoose.connect( 'mongodb://localhost/express-todo' );
+var mongo_host = process.env.MONGODB || 'localhost';
+
+mongoose.connect( 'mongodb://' + mongo_host + '/express-todo' );
