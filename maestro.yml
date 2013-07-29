@@ -3,17 +3,13 @@
 --  version: 0.1
 templates:
   nodejs: 
-    base_image: kstaken/nodejs
     config:
       command: /usr/bin/node /var/www/app.js
-      detach: true
       ports: 
         - '80'  
       environment:
         - PORT=80
     buildspec:
-      pre:
-        insert: . /var/www
       dockerfile: |
         FROM kstaken/nodejs
         ADD https://github.com/kstaken/express-todo-example/archive/master.tar.gz /tmp/
@@ -23,10 +19,8 @@ templates:
       mongodb: 
         port: '27017'
   mongodb:     
-    base_image: kstaken/mongodb
     config:
       command: /usr/bin/mongod --config /etc/mongodb.conf
-      detach: true
     buildspec:
       url: github.com/toscanini/docker-mongodb
     
